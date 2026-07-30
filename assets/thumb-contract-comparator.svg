@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#f7f4ee"/>
+  <text x="320" y="40" text-anchor="middle" fill="#5b6472" font-family="system-ui" font-size="14" font-weight="600">Contract Comparator</text>
+  <rect x="30" y="60" width="280" height="310" rx="10" fill="#fff" stroke="#e7e0d2" stroke-width="1"/>
+  <text x="50" y="90" fill="#1f2430" font-family="system-ui" font-size="13" font-weight="700">Original</text>
+  <text x="50" y="120" fill="#5b6472" font-family="system-ui" font-size="12">甲方：XXX有限公司</text>
+  <text x="50" y="145" fill="#5b6472" font-family="system-ui" font-size="12">乙方：YYY有限公司</text>
+  <text x="50" y="175" fill="#1f2430" font-family="system-ui" font-size="12" font-weight="600">合同金额：</text>
+  <text x="50" y="195" fill="#5b6472" font-family="system-ui" font-size="12">人民币 500,000 元</text>
+  <text x="50" y="225" fill="#1f2430" font-family="system-ui" font-size="12" font-weight="600">付款条件：</text>
+  <text x="50" y="245" fill="#5b6472" font-family="system-ui" font-size="12">合同签订后15日内</text>
+  <text x="50" y="265" fill="#5b6472" font-family="system-ui" font-size="12">支付30%预付款</text>
+  <rect x="330" y="60" width="280" height="310" rx="10" fill="#fff" stroke="#e7e0d2" stroke-width="1"/>
+  <text x="350" y="90" fill="#1f2430" font-family="system-ui" font-size="13" font-weight="700">Modified</text>
+  <text x="350" y="120" fill="#5b6472" font-family="system-ui" font-size="12">甲方：XXX有限公司</text>
+  <text x="350" y="145" fill="#5b6472" font-family="system-ui" font-size="12">乙方：ZZZ有限公司</text>
+  <text x="350" y="175" fill="#1f2430" font-family="system-ui" font-size="12" font-weight="600">合同金额：</text>
+  <text x="350" y="195" fill="#dc2626" font-family="system-ui" font-size="12">人民币 650,000 元</text>
+  <rect x="350" y="190" width="130" height="2" fill="#fca5a5" opacity="0.5"/>
+  <text x="350" y="225" fill="#1f2430" font-family="system-ui" font-size="12" font-weight="600">付款条件：</text>
+  <text x="350" y="245" fill="#16a34a" font-family="system-ui" font-size="12">合同签订后7日内</text>
+  <rect x="350" y="240" width="130" height="2" fill="#86efac" opacity="0.5"/>
+  <text x="350" y="265" fill="#16a34a" font-family="system-ui" font-size="12">支付50%预付款</text>
+</svg>

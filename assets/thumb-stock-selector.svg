@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#0f1115"/>
+  <text x="320" y="40" text-anchor="middle" fill="#8b93a1" font-family="system-ui" font-size="14" font-weight="600">Stock Selector</text>
+  <rect x="40" y="70" width="560" height="300" rx="10" fill="#1a1e27" stroke="#2c323d" stroke-width="1"/>
+  <line x1="70" y1="320" x2="580" y2="320" stroke="#2c323d" stroke-width="1"/>
+  <!-- EMA line -->
+  <path d="M70 280 Q 120 260 180 240 Q 240 220 300 230 Q 360 250 420 210 Q 480 180 540 190" fill="none" stroke="#60a5fa" stroke-width="2"/>
+  <!-- Price candlesticks -->
+  <rect x="100" y="260" width="8" height="40" rx="2" fill="#4ade80"/>
+  <rect x="140" y="240" width="8" height="60" rx="2" fill="#4ade80"/>
+  <rect x="180" y="230" width="8" height="50" rx="2" fill="#4ade80"/>
+  <rect x="220" y="250" width="8" height="45" rx="2" fill="#f87171"/>
+  <rect x="260" y="240" width="8" height="55" rx="2" fill="#4ade80"/>
+  <rect x="300" y="260" width="8" height="40" rx="2" fill="#f87171"/>
+  <rect x="340" y="220" width="8" height="70" rx="2" fill="#4ade80"/>
+  <rect x="380" y="210" width="8" height="60" rx="2" fill="#4ade80"/>
+  <rect x="420" y="230" width="8" height="50" rx="2" fill="#f87171"/>
+  <rect x="460" y="200" width="8" height="80" rx="2" fill="#4ade80"/>
+  <rect x="500" y="210" width="8" height="70" rx="2" fill="#4ade80"/>
+  <rect x="540" y="220" width="8" height="60" rx="2" fill="#f87171"/>
+  <text x="70" y="340" fill="#5b6472" font-family="system-ui" font-size="10">1月</text>
+  <text x="320" y="340" text-anchor="middle" fill="#5b6472" font-family="system-ui" font-size="10">策略融合评分</text>
+  <text x="570" y="340" text-anchor="end" fill="#5b6472" font-family="system-ui" font-size="10">当前</text>
+</svg>

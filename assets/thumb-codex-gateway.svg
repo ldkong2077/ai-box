@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#f7f4ee"/>
+  <text x="320" y="40" text-anchor="middle" fill="#5b6472" font-family="system-ui" font-size="14" font-weight="600">Codex Gateway</text>
+  <rect x="50" y="70" width="120" height="50" rx="10" fill="#fff" stroke="#ea580c" stroke-width="2"/>
+  <text x="110" y="100" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="11" font-weight="600">输入</text>
+  <rect x="260" y="70" width="120" height="50" rx="10" fill="#ea580c15" stroke="#ea580c" stroke-width="2"/>
+  <text x="320" y="100" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="11" font-weight="600">网关</text>
+  <rect x="470" y="70" width="120" height="50" rx="10" fill="#fff" stroke="#e7e0d2" stroke-width="2"/>
+  <text x="530" y="100" text-anchor="middle" fill="#5b6472" font-family="system-ui" font-size="11" font-weight="600">Provider A</text>
+  <rect x="470" y="170" width="120" height="50" rx="10" fill="#fff" stroke="#e7e0d2" stroke-width="2"/>
+  <text x="530" y="200" text-anchor="middle" fill="#5b6472" font-family="system-ui" font-size="11" font-weight="600">Provider B</text>
+  <rect x="470" y="270" width="120" height="50" rx="10" fill="#fff" stroke="#e7e0d2" stroke-width="2"/>
+  <text x="530" y="300" text-anchor="middle" fill="#5b6472" font-family="system-ui" font-size="11" font-weight="600">Provider C</text>
+  <line x1="170" y1="95" x2="260" y2="95" stroke="#ea580c" stroke-width="2"/>
+  <polygon points="255,90 265,95 255,100" fill="#ea580c"/>
+  <line x1="380" y1="95" x2="470" y2="95" stroke="#e7e0d2" stroke-width="2"/>
+  <polygon points="465,90 475,95 465,100" fill="#e7e0d2"/>
+  <line x1="380" y1="95" x2="470" y2="195" stroke="#e7e0d2" stroke-width="2"/>
+  <polygon points="465,190 475,195 465,200" fill="#e7e0d2"/>
+  <line x1="380" y1="95" x2="470" y2="295" stroke="#e7e0d2" stroke-width="2"/>
+  <polygon points="465,290 475,295 465,300" fill="#e7e0d2"/>
+</svg>

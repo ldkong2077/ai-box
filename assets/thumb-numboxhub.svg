@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#f7f4ee"/>
+  <text x="320" y="40" text-anchor="middle" fill="#5b6472" font-family="system-ui" font-size="14" font-weight="600">NumBoxHub</text>
+  <rect x="180" y="60" width="280" height="300" rx="14" fill="#fff" stroke="#e7e0d2" stroke-width="1" filter="url(#s)"/>
+  <rect x="200" y="80" width="240" height="50" rx="8" fill="#0d948810" stroke="#0d9488" stroke-width="1"/>
+  <text x="320" y="110" text-anchor="middle" fill="#0d9488" font-family="system-ui" font-size="20" font-weight="700">¥ 1,250,000</text>
+  <text x="200" y="165" fill="#1f2430" font-family="system-ui" font-size="12" font-weight="600">IRR</text>
+  <text x="340" y="165" text-anchor="end" fill="#5b6472" font-family="system-ui" font-size="12">12.36%</text>
+  <text x="200" y="195" fill="#1f2430" font-family="system-ui" font-size="12" font-weight="600">NPV</text>
+  <text x="340" y="195" text-anchor="end" fill="#16a34a" font-family="system-ui" font-size="12">¥ 85,200</text>
+  <text x="200" y="225" fill="#1f2430" font-family="system-ui" font-size="12" font-weight="600">ROI</text>
+  <text x="340" y="225" text-anchor="end" fill="#5b6472" font-family="system-ui" font-size="12">18.5%</text>
+  <text x="200" y="255" fill="#1f2430" font-family="system-ui" font-size="12" font-weight="600">回收期</text>
+  <text x="340" y="255" text-anchor="end" fill="#5b6472" font-family="system-ui" font-size="12">3.2 年</text>
+  <line x1="200" y1="270" x2="440" y2="270" stroke="#e7e0d2" stroke-width="1"/>
+  <text x="200" y="295" fill="#1f2430" font-family="system-ui" font-size="12" font-weight="600">敏感性</text>
+  <text x="200" y="320" fill="#5b6472" font-family="system-ui" font-size="11">售价 +5% → IRR 14.2%</text>
+  <text x="200" y="340" fill="#5b6472" font-family="system-ui" font-size="11">成本 -3% → IRR 13.8%</text>
+</svg>
