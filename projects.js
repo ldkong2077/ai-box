@@ -16,7 +16,7 @@ const CATEGORIES = {
   'ai-dev':    { zh: 'AI 开发工具',   en: 'AI Dev Tools' },
   'ai-app':    { zh: 'AI 应用',        en: 'AI Applications' },
   'infra':     { zh: 'AI 基础设施',   en: 'AI Infrastructure' },
-  'industry':  { zh: '行业系统',       en: 'Industry Systems' },
+  'industry':  { zh: '业务系统',       en: 'Business Systems' },
   'fintech':   { zh: '金融量化',       en: 'Quant Finance' },
   'efficiency':{ zh: '效率与产品',     en: 'Efficiency & Products' },
 };
@@ -287,12 +287,12 @@ const PROJECTS = [
 
   {
     id: 'real-estate-calc',
-    name: { zh: '房地产项目经济测算工具', en: 'Real Estate Econ. Calculator' },
-    tagline: { zh: '双口径财务 · 土增税超率累进 · 敏感性分析', en: 'Dual-base finance · LAT · sensitivity' },
+    name: { zh: '项目经济测算工具', en: 'Project Econ. Calculator' },
+    tagline: { zh: '双口径财务 · 税务建模 · 敏感性分析', en: 'Dual-base finance · tax modeling · sensitivity' },
     cat: 'industry',
     tech: ['原生 JavaScript', 'ECharts', '财务建模', '单文件离线'],
     desc: {
-      zh: '基于利益统筹模型的房地产项目经济测算工具：投资估算、销售预测、双口径财务分析、税务计算与敏感性分析。',
+      zh: '项目经济测算工具：投资估算、收益预测、双口径财务分析、税务计算与敏感性分析。',
       en: 'A real-estate project econometric tool: investment, sales, dual-base finance, tax and sensitivity analysis.',
     },
     depth: {
@@ -308,14 +308,14 @@ const PROJECTS = [
            '14 engine modules, 74 tests; single-file offline HTML build'],
     },
     value: {
-      zh: '把地产投拓最核心的「算账」能力做成可分发、可审计的工具，双口径与土增税模型直接对标实务口径。',
+      zh: '把项目投资决策里最核心的「算账」能力做成可分发、可审计的工具，双口径与税务模型直接对标实务口径。',
       en: 'Packages core real-estate underwriting into an auditable, distributable tool aligned with practice.',
     },
     businessValue: {
-      zh: '面向地产开发商、投资机构、咨询公司的投拓部门，可替代手动 Excel 测算，提升精度与效率。',
-      en: 'For real estate developers, investment firms, and consultancies — replaces manual Excel modeling.',
+      zh: '面向需要做项目投资决策的团队与个人，可替代手动 Excel 测算，提升精度与效率。',
+      en: 'For teams and individuals making project investment decisions — replaces manual Excel modeling.',
     },
-    highlights: { zh: ['双口径 IRR', '土增税累进', '敏感性', '深圳五因子'], en: ['dual IRR', 'LAT progressive', 'sensitivity', 'SZ 5-factor'] },
+    highlights: { zh: ['双口径 IRR', '税务建模', '敏感性', '地价系数模型'], en: ['dual IRR', 'tax modeling', 'sensitivity', 'land-price model'] },
     repo: 'https://github.com/ldkong2077/real-estate-calc',
     demo: '',
     status: 'open',
@@ -326,13 +326,13 @@ const PROJECTS = [
 
   {
     id: 'renewal-flow',
-    name: { zh: '拆迁云 · 城市更新管理系统', en: 'Renewal-Flow' },
-    tagline: { zh: '生产级城市更新与土地整备项目管理系统', en: 'Production urban-renewal project management' },
+    name: { zh: 'Renewal-Flow · 合规项目管理系统', en: 'Renewal-Flow' },
+    tagline: { zh: '生产级合规项目管理系统（资金/权限/审计全链路）', en: 'Production-grade compliance project management' },
     cat: 'industry',
     tech: ['Node.js', 'Express', 'Prisma', 'PostgreSQL', 'Vue'],
     desc: {
-      zh: '城市更新/土地整备项目的生产级管理系统：涵盖项目、资金、放款、权限与审计的完整业务闭环。',
-      en: 'A production-grade management system for urban-renewal / land-consolidation projects end-to-end.',
+      zh: '面向强合规场景的生产级项目管理系统：涵盖项目、资金、放款、权限与审计的完整业务闭环。',
+      en: 'A production-grade management system for compliance-heavy scenarios end-to-end.',
     },
     depth: {
       zh: ['金额全程使用 Prisma.Decimal，无浮点误差；事务 Serializable 隔离',
@@ -347,12 +347,12 @@ const PROJECTS = [
            'docker-compose + Caddy/nginx one-click; passed production launch audit'],
     },
     value: {
-      zh: '把城市更新这类强业务、强合规场景做成可上线的系统，体现从业务建模到生产部署的完整工程能力。',
-      en: 'Ships a compliance-heavy urban-renewal system — full capability from domain modeling to production.',
+      zh: '把一个强业务、强合规场景做成可上线的系统，体现从业务建模到生产部署的完整工程能力。',
+      en: 'Ships a compliance-heavy system — full capability from domain modeling to production.',
     },
     businessValue: {
-      zh: '面向城市更新/拆迁管理企业，SaaS 或私有化部署，市场空间大，行业壁垒高，有长期商业价值。',
-      en: 'For urban renewal / demolition management enterprises — large market, high entry barrier, long-term value.',
+      zh: '面向需要强合规与资金闭环管理的组织，可 SaaS 或私有化部署，有长期商业价值。',
+      en: 'For organizations needing compliance-heavy, fund-lifecycle management — SaaS or private deployment, long-term value.',
     },
     highlights: { zh: ['生产级', 'Decimal 无误差', '加密/审计', '一键部署'], en: ['production', 'Decimal-safe', 'encrypt/audit', '1-click deploy'] },
     repo: 'https://github.com/ldkong2077/renewal-flow',
@@ -479,11 +479,11 @@ const PROJECTS = [
   {
     id: 'toolhub',
     name: { zh: 'ToolHub · 一站式工具集合', en: 'ToolHub' },
-    tagline: { zh: 'AI 助手 / 文档 / 设计 / 行业工具聚合导航', en: 'Aggregated navigator for AI/docs/design/tools' },
+    tagline: { zh: 'AI 助手 / 文档 / 设计 / 专业工具聚合导航', en: 'Aggregated navigator for AI/docs/design/tools' },
     cat: 'efficiency',
     tech: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind CSS', 'Docker'],
     desc: {
-      zh: '聚合 AI 助手、文档处理、设计媒体、协作通讯、行业与开发工具的一站式导航站，静态导出、可离线复现。',
+      zh: '聚合 AI 助手、文档处理、设计媒体、协作通讯、专业与开发工具的一站式导航站，静态导出、可离线复现。',
       en: 'A one-stop navigator aggregating AI assistants, docs, design, collaboration and dev tools; static-export, offline-reproducible.',
     },
     depth: {
@@ -501,8 +501,8 @@ const PROJECTS = [
       en: 'Converges scattered productivity tools into one searchable entry point.',
     },
     businessValue: {
-      zh: '可作为企业内部门户/工具导航站，也可发展为面向特定行业的工具聚合平台，有广告/推广变现潜力。',
-      en: 'Enterprise internal tool portal or industry-specific tool aggregator — potential for ad/sponsorship revenue.',
+      zh: '可作为企业内部门户/工具导航站，也可发展为面向特定领域的工具聚合平台，有广告/推广变现潜力。',
+      en: 'Enterprise internal tool portal or domain-specific tool aggregator — potential for ad/sponsorship revenue.',
     },
     highlights: { zh: ['二级分类', '拼音搜索', '收藏/最近', '纯静态'], en: ['2-level nav', 'pinyin search', 'fav/recents', 'static'] },
     repo: 'https://github.com/ldkong2077/toolhub',
